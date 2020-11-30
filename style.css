@@ -1,0 +1,44 @@
+.items{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.item{
+    position: relative;
+    border: 5px solid white;
+    width: 300px;
+}
+.item p{
+    position: absolute;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+}
+.item:hover p{
+    opacity:1;
+}
+.item:hover img{
+    opacity:0.4;
+}
+p{color:blanchedalmond}
+body{background-color: black;}
+.image img{
+    margin : 100px;
+   
+    
+    border: 5px solid blue;
+    box-shadow: 5px 10px 50px  blueviolet;
+    border-radius: 50px;
+    background-color: coral;
+}
+.intro{
+    margin : 100px;
+    padding : 30px;
+    text-align: justify;
+    border: 5px solid blue;
+    box-shadow: 5px 10px 50px  blueviolet;
+    border-radius: 50px;
+    background-color: coral;
+}
